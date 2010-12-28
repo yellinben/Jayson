@@ -1,0 +1,14 @@
+body {
+	font-family: "Menlo", "Monaco", mono;	
+	line-height: 1.3em;
+	letter-spacing: 0.08em;
+	width: auto;
+	word-wrap: break-word;
+	background-color: #ebeae6;
+}
+
+#response h2 {
+	color: #d04f48;
+	font-size: 1.2em;
+	font-weight: bold;
+}

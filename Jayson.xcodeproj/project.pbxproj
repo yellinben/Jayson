@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD582C0DA1D0D100B32029 /* ResponseDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58280DA1D0D100B32029 /* ResponseDocument.xib */; };
+		1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		360C753012C1D53500696EE0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360C752F12C1D53500696EE0 /* WebKit.framework */; };
+		360C753612C1D55B00696EE0 /* ResponseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 360C753512C1D55B00696EE0 /* ResponseView.m */; };
+		360C754412C1DAFB00696EE0 /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = 360C754312C1DAFB00696EE0 /* Response.m */; };
+		360C754B12C1DFB500696EE0 /* json.css in Resources */ = {isa = PBXBuildFile; fileRef = 360C754812C1DFB500696EE0 /* json.css */; };
+		360C755112C1E0A200696EE0 /* json.js in Sources */ = {isa = PBXBuildFile; fileRef = 360C754E12C1E0A200696EE0 /* json.js */; };
+		360C759F12C1E4C800696EE0 /* json.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 360C754E12C1E0A200696EE0 /* json.js */; };
+		360C75AC12C1E4FB00696EE0 /* JaysonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 360C75AB12C1E4FB00696EE0 /* JaysonAppDelegate.m */; };
+		360C76EA12C1F5D800696EE0 /* ResponseLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 360C76E912C1F5D800696EE0 /* ResponseLoader.m */; };
+		360C77BB12C221FE00696EE0 /* Jayson.icns in Resources */ = {isa = PBXBuildFile; fileRef = 360C77BA12C221FE00696EE0 /* Jayson.icns */; };
+		360C795912C24EA200696EE0 /* template_formatted.html in Resources */ = {isa = PBXBuildFile; fileRef = 360C795712C24EA200696EE0 /* template_formatted.html */; };
+		360C795A12C24EA200696EE0 /* template_unformatted.html in Resources */ = {isa = PBXBuildFile; fileRef = 360C795812C24EA200696EE0 /* template_unformatted.html */; };
+		3696084A12C9841F001C6D9B /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696084912C9841F001C6D9B /* NSString+Extras.m */; };
+		3696085F12C98806001C6D9B /* raw.css in Resources */ = {isa = PBXBuildFile; fileRef = 3696085E12C98806001C6D9B /* raw.css */; };
+		3696086112C9881C001C6D9B /* raw.js in Sources */ = {isa = PBXBuildFile; fileRef = 3696086012C9881C001C6D9B /* raw.js */; };
+		3696086312C98830001C6D9B /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = 3696086212C98830001C6D9B /* template.html */; };
+		3696087612C98ADF001C6D9B /* error.js in Sources */ = {isa = PBXBuildFile; fileRef = 3696087512C98ADF001C6D9B /* error.js */; };
+		3696087812C98AE3001C6D9B /* error.css in Resources */ = {isa = PBXBuildFile; fileRef = 3696087712C98AE3001C6D9B /* error.css */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC310486D014006FF6A4 /* ResponseDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* ResponseDocument.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		360C75A812C1E4D300696EE0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				360C759F12C1E4C800696EE0 /* json.js in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58290DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/ResponseDocument.xib; sourceTree = "<group>"; };
+		1DDD582B0DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2564AD2C0F5327BB00F57823 /* Jayson_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jayson_Prefix.pch; sourceTree = "<group>"; };
+		2A37F4ACFDCFA73011CA2CEA /* ResponseDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* ResponseDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		360C752F12C1D53500696EE0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		360C753412C1D55B00696EE0 /* ResponseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseView.h; sourceTree = "<group>"; };
+		360C753512C1D55B00696EE0 /* ResponseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseView.m; sourceTree = "<group>"; };
+		360C754212C1DAFB00696EE0 /* Response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
+		360C754312C1DAFB00696EE0 /* Response.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Response.m; sourceTree = "<group>"; };
+		360C754812C1DFB500696EE0 /* json.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = json.css; sourceTree = "<group>"; };
+		360C754E12C1E0A200696EE0 /* json.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = json.js; sourceTree = "<group>"; };
+		360C75AA12C1E4FB00696EE0 /* JaysonAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JaysonAppDelegate.h; sourceTree = "<group>"; };
+		360C75AB12C1E4FB00696EE0 /* JaysonAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JaysonAppDelegate.m; sourceTree = "<group>"; };
+		360C76E812C1F5D800696EE0 /* ResponseLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseLoader.h; sourceTree = "<group>"; };
+		360C76E912C1F5D800696EE0 /* ResponseLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseLoader.m; sourceTree = "<group>"; };
+		360C77BA12C221FE00696EE0 /* Jayson.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Jayson.icns; sourceTree = "<group>"; };
+		360C795712C24EA200696EE0 /* template_formatted.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = template_formatted.html; sourceTree = "<group>"; };
+		360C795812C24EA200696EE0 /* template_unformatted.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = template_unformatted.html; sourceTree = "<group>"; };
+		3696084812C9841F001C6D9B /* NSString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extras.h"; sourceTree = "<group>"; };
+		3696084912C9841F001C6D9B /* NSString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extras.m"; sourceTree = "<group>"; };
+		3696085E12C98806001C6D9B /* raw.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = raw.css; sourceTree = "<group>"; };
+		3696086012C9881C001C6D9B /* raw.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = raw.js; sourceTree = "<group>"; };
+		3696086212C98830001C6D9B /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = template.html; sourceTree = "<group>"; };
+		3696087512C98ADF001C6D9B /* error.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = error.js; sourceTree = "<group>"; };
+		3696087712C98AE3001C6D9B /* error.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = error.css; sourceTree = "<group>"; };
+		8D15AC360486D014006FF6A4 /* Jayson-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Jayson-Info.plist"; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* Jayson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jayson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				360C753012C1D53500696EE0 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+				360C752F12C1D53500696EE0 /* WebKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* Jayson.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* Slurvice */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = Slurvice;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				360C75AA12C1E4FB00696EE0 /* JaysonAppDelegate.h */,
+				360C75AB12C1E4FB00696EE0 /* JaysonAppDelegate.m */,
+				2A37F4AEFDCFA73011CA2CEA /* ResponseDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* ResponseDocument.m */,
+				360C753412C1D55B00696EE0 /* ResponseView.h */,
+				360C753512C1D55B00696EE0 /* ResponseView.m */,
+				360C754212C1DAFB00696EE0 /* Response.h */,
+				360C754312C1DAFB00696EE0 /* Response.m */,
+				360C76E812C1F5D800696EE0 /* ResponseLoader.h */,
+				360C76E912C1F5D800696EE0 /* ResponseLoader.m */,
+				3696084812C9841F001C6D9B /* NSString+Extras.h */,
+				3696084912C9841F001C6D9B /* NSString+Extras.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2564AD2C0F5327BB00F57823 /* Jayson_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				360C791512C2473700696EE0 /* syntax */,
+				360C77BA12C221FE00696EE0 /* Jayson.icns */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				8D15AC360486D014006FF6A4 /* Jayson-Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				1DDD58280DA1D0D100B32029 /* ResponseDocument.xib */,
+				1DDD582A0DA1D0D100B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		360C791512C2473700696EE0 /* syntax */ = {
+			isa = PBXGroup;
+			children = (
+				360C795712C24EA200696EE0 /* template_formatted.html */,
+				3696086212C98830001C6D9B /* template.html */,
+				360C795812C24EA200696EE0 /* template_unformatted.html */,
+				360C754812C1DFB500696EE0 /* json.css */,
+				360C754E12C1E0A200696EE0 /* json.js */,
+				3696085E12C98806001C6D9B /* raw.css */,
+				3696086012C9881C001C6D9B /* raw.js */,
+				3696087712C98AE3001C6D9B /* error.css */,
+				3696087512C98ADF001C6D9B /* error.js */,
+			);
+			path = syntax;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* Jayson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Jayson" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				360C75A812C1E4D300696EE0 /* CopyFiles */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jayson;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Slurvice;
+			productReference = 8D15AC370486D014006FF6A4 /* Jayson.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Jayson" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Slurvice */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* Jayson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				1DDD582C0DA1D0D100B32029 /* ResponseDocument.xib in Resources */,
+				1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */,
+				360C754B12C1DFB500696EE0 /* json.css in Resources */,
+				360C77BB12C221FE00696EE0 /* Jayson.icns in Resources */,
+				360C795912C24EA200696EE0 /* template_formatted.html in Resources */,
+				360C795A12C24EA200696EE0 /* template_unformatted.html in Resources */,
+				3696085F12C98806001C6D9B /* raw.css in Resources */,
+				3696086312C98830001C6D9B /* template.html in Resources */,
+				3696087812C98AE3001C6D9B /* error.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC310486D014006FF6A4 /* ResponseDocument.m in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				360C753612C1D55B00696EE0 /* ResponseView.m in Sources */,
+				360C754412C1DAFB00696EE0 /* Response.m in Sources */,
+				360C755112C1E0A200696EE0 /* json.js in Sources */,
+				360C75AC12C1E4FB00696EE0 /* JaysonAppDelegate.m in Sources */,
+				360C76EA12C1F5D800696EE0 /* ResponseLoader.m in Sources */,
+				3696084A12C9841F001C6D9B /* NSString+Extras.m in Sources */,
+				3696086112C9881C001C6D9B /* raw.js in Sources */,
+				3696087612C98ADF001C6D9B /* error.js in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58280DA1D0D100B32029 /* ResponseDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58290DA1D0D100B32029 /* English */,
+			);
+			name = ResponseDocument.xib;
+			sourceTree = "<group>";
+		};
+		1DDD582A0DA1D0D100B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD582B0DA1D0D100B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Jayson_Prefix.pch;
+				INFOPLIST_FILE = "Jayson-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Jayson;
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Jayson_Prefix.pch;
+				INFOPLIST_FILE = "Jayson-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Jayson;
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Jayson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Jayson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

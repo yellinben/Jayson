@@ -1,0 +1,95 @@
+/**
+ *
+ * Modified code taken from JSONView
+ * From: default.css
+ * http://code.google.com/p/jsonview/
+ * Copyright (c) 2009 Benjamin Hollis
+ */
+
+body {
+	background-color: #faf9f5;
+	font-family: "Menlo", "Monaco", mono;	
+	color: #323232;	
+	padding: 0.4em;
+	font-size: 1.2em;    
+}
+
+.prop {
+	font-weight: bold;
+	color: #0f1f08;
+	padding: 0.15em;
+}
+.prop:hover {
+	background-color: #ede8d5;
+}
+
+.null {
+	color: #e95e6f;
+}
+
+.bool {
+	color: #3B5BB5;
+}
+
+.num {
+	color: #569dd7;
+}
+
+.string {
+	color: #79b663;
+}
+
+.collapser {
+	position: absolute;
+	left: -1em;
+	cursor: pointer;
+	color: #383838;
+	padding: 0 0.2em;
+}
+.collapser:hover {
+	background-color: #dfd8ad;
+}
+
+li {
+	position: relative;
+}
+
+li:after {
+	content: ',';
+}
+
+li:last-child:after {
+	content: '';
+}
+
+#error {
+	-webkit-border-radius: 8px;
+	border: 1px solid #970000;
+	background-color: #F7E8E8;
+	margin: .5em;
+	padding: .5em;
+}
+
+.errormessage {
+	font-family: monospace;
+}
+
+ul {
+	list-style: none;
+	margin: 0 0 0 2em;
+	padding: 0;
+}
+
+h1 {
+	font-size: 1.2em;
+}
+
+#toolbar {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}
+
+#expandAll, #collapseAll {
+	display: inline-block;
+}
